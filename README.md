@@ -55,7 +55,22 @@ I utilized `nomic-embed-text` to generate embeddings from the input data. These 
 
 `model.py`
 
-The `Llama3` model is initialized using Ollama.
+The Llama3 model is initialized through Ollama.
+
+### 4. Retrieval-Augmented Generation
+
+`rag.py`
+
+Responsible for triggering the retriever to extract pertinent chunks for responding to the user's query. The formatted prompt will be,
+
+```
+Question: {user_query}
+Context: {context}
+```
+
+## Chatbot
+
+Run `python app.py` to lauch the user interface
 
 ## Output
 
