@@ -9,7 +9,9 @@ The purpose of this repository is to facilitate the understanding and implementa
 
 .
 ├── LICENSE
+
 ├── README.md
+
 ├── app.py
 ├── config.py
 ├── data_loader.py
