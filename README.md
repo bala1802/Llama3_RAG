@@ -35,11 +35,27 @@ Ollama is a powerful tool that simplifies the process of creating, running, and 
 
 The llama3 service will be hosted at the following address: http://localhost:11434.
 
-## RAG
+## Application
 
-### `data_loader.py`
+This application encompasses four distinct subtasks.
+
+### 1. Data Loader 
+
+`data_loader.py`
 
 In this context, a web URL serves as the corpus for the chatbot. Data is extracted directly from the URL. Applied a Chunking Strategy to segment the data into smaller, meaningful chunks. These chunks are then converted into embeddings and stored within the Chroma DB for efficient retrieval and processing.
+
+### 2. Generate Embeddings and Vector DB Storage
+
+`data_loader.py`
+
+I utilized `nomic-embed-text` to generate embeddings from the input data. These embeddings are subsequently stored within the ChromaDB
+
+### 3. Initialize Ollama Model
+
+`model.py`
+
+The `Llama3` model is initialized using Ollama.
 
 ## Output
 
