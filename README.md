@@ -70,8 +70,16 @@ Context: {context}
 
 ## Chatbot
 
-Run `python app.py` to lauch the user interface
+Run `python app.py` to launch the user interface
 
-## Output
+<img width="1246" alt="image" src="https://github.com/bala1802/Llama3_RAG/assets/22103095/bf4baa97-ce7e-4c5f-a96f-15e4d9d57e8a">
+
+
+### Input
+
+- The URL used as the data corpus for the Chatbot application : [Infosys Machine Translation](https://aclanthology.org/2020.wmt-1.52/)
+- User Query: Who are the authors of the paper?
+
+### Output
 
 <img width="1246" alt="image" src="https://github.com/bala1802/Llama3_RAG/assets/22103095/04d56c1b-ad7e-4385-8cdc-c19c7b8d1402">
