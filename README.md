@@ -7,7 +7,18 @@ The purpose of this repository is to facilitate the understanding and implementa
 
 ## Repository Architecture
 
-
+```
+.
+├── LICENSE
+├── README.md
+├── app.py
+├── config.py
+├── data_loader.py
+├── data_utils.py
+├── flagged
+│   └── log.csv
+└── rag.py
+```
 
 ## Output
 
