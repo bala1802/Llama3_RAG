@@ -1,4 +1,4 @@
-# Llama3_RAG
+# Llama3 - Retrieval-Augmented Generation
 Implementation of Llama3's RAG model utilizing Ollama
 
 ## Purpose
