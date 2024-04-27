@@ -35,6 +35,12 @@ Ollama is a powerful tool that simplifies the process of creating, running, and 
 
 The llama3 service will be hosted at the following address: http://localhost:11434.
 
+## RAG
+
+### `data_loader.py`
+
+In this context, a web URL serves as the corpus for the chatbot. Data is extracted directly from the URL. Applied a Chunking Strategy to segment the data into smaller, meaningful chunks. These chunks are then converted into embeddings and stored within the Chroma DB for efficient retrieval and processing.
+
 ## Output
 
 <img width="1246" alt="image" src="https://github.com/bala1802/Llama3_RAG/assets/22103095/04d56c1b-ad7e-4385-8cdc-c19c7b8d1402">
